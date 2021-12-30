@@ -134,6 +134,14 @@ font-weight: 400 !important;
 .home-social i:hover{
   color: #2c98f0;
 }
+
+@media (min-width:0px) and (max-width:600px){
+  .home-social
+  {
+    display: none;
+  }
+}
+
 /* ABOUT SECTION */
 .header h3{
   position: relative;
